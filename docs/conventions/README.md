@@ -15,5 +15,6 @@
 | [profiles.md](profiles.md) | Профили: структура каталогов и специфичные правила |
 | [pipeline-and-checks.md](pipeline-and-checks.md) | Этапы пайплайна, артефакты, stack checks |
 | [llm-behavior.md](llm-behavior.md) | Промпты LLM, постобработка README, лимиты, анализ задачи |
+| [tz-analysis-workflow.md](tz-analysis-workflow.md) | Перед кодом: разбор ТЗ, риски, вопросы с вариантами A)/B) и плюсами/минусами |
 
 Исходный код генератора (вне этого репозитория): `defaults.yaml`, `profiles/*.yaml`, `codegen/pipeline.py`, `codegen/task_analysis.py`, `codegen/stack_checks.py`, корневой `README.md`.
