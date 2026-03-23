@@ -53,7 +53,7 @@
 | Архитектура | Слои и модули разделены; контракты между слоями понятны; композиция там, где это задано правилами профиля. |
 | Стиль и документация | [code-style-and-comments.md](code-style-and-comments.md): русские docstrings/комментарии по умолчанию, без транслита. |
 | README | Если менялся публичный контракт проекта — README обновлён по [readme-onboarding.md](readme-onboarding.md); упоминание HTTP по умолчанию при отсутствии TLS. |
-| Docker | Если в scope есть compose — сервисы, порты, `env_file` согласованы с [docker-and-compose.md](docker-and-compose.md). |
+| Docker | Для **не-CLI** проектов: есть `docker-compose.yml` и Dockerfile(ы); README описывает **`docker compose up -d`** (и при необходимости `--build`); сервисы, порты, `env_file` согласованы с [docker-and-compose.md](docker-and-compose.md). Для простого CLI/скрипта по ТЗ — compose может отсутствовать, тогда проверьте явные команды локального запуска. |
 
 После ревью при необходимости — прогон тестов/линтера, если они есть в репозитории (как в разделе «Разработка и тесты» README).
 
