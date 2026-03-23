@@ -16,5 +16,6 @@
 | [pipeline-and-checks.md](pipeline-and-checks.md) | Этапы пайплайна, артефакты, stack checks |
 | [llm-behavior.md](llm-behavior.md) | Промпты LLM, постобработка README, лимиты, анализ задачи |
 | [tz-analysis-workflow.md](tz-analysis-workflow.md) | Перед кодом: разбор ТЗ, риски, вопросы с вариантами A)/B) и плюсами/минусами |
+| [code-review.md](code-review.md) | Ревью в пайплайне генератора; саморевью ассистента; чеклист после реализации |
 
 Исходный код генератора (вне этого репозитория): `defaults.yaml`, `profiles/*.yaml`, `codegen/pipeline.py`, `codegen/task_analysis.py`, `codegen/stack_checks.py`, корневой `README.md`.
